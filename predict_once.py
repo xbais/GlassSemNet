@@ -13,7 +13,7 @@ from utils.dataloader import get_loader_testbatch
 from utils.crf_refine import crf_refine
 
 ####### GLOBALS #######
-ckpt_path = '../GlassSemNetv2.pth'
+ckpt_path = '../../GlassSemNetv2.pth'
 
 model = GlassSemNet()
 ckpt_dict = torch.load(ckpt_path)
