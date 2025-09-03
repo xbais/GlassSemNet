@@ -80,4 +80,4 @@ def run(image_root:str, save_dir:str, semantic:bool, batchsize:int=32):
 
 if __name__ == '__main__':
 
-	run(image_root='../inputs', save_dir='../outputs', semantic=False)
+	run(image_root='../tests/inputs/gsn_images', save_dir='../tests/outputs/gsn_images', semantic=False)
